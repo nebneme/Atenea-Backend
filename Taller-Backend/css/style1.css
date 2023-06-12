@@ -1,0 +1,73 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    margin-bottom: -5px;
+    /*imagen de fondo degradado lineal*/
+      background: linear-gradient(rgb(255, 255, 255), rgba(51, 48, 48, 0.473));
+
+}
+/*contenedor del titulo principal*/
+.contenedor_texto{
+    padding-top: 3%;
+    padding-left: 5%;
+    font-family: 'Nunito', sans-serif;
+    color: rgba(15, 15, 15, 0.664);
+    
+}
+/*contenedor de las opciones de los ejercicios y de la imagen */
+section{
+    display: flex;
+}
+/*ejercicios */
+.contenidos{
+    width: 50%;
+    height: 70dvh;
+    margin: 2%;
+   
+}
+/*texto de los ejercicios */
+h2{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+/*contendor del texto de los ejercicos */
+.contenidos_ejercicios{
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    width: 100%;
+    color:  rgba(15, 15, 15, 0.774);
+    height: 100px;
+    margin: 20px;
+    background-color: white;
+    border: solid 1px rgba(63, 61, 61, 0.253);
+    border-radius: 30px;
+    -webkit-box-shadow: 9px 12px 13px 3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 9px 12px 13px 3px rgba(0,0,0,0.25);
+    box-shadow: 9px 12px 13px 3px rgba(0,0,0,0.25);
+}
+/*imagen del lado derecho*/
+.contenedor_img{
+    
+    width: 50%;
+    height: 70dvh;
+    margin-top:1%;
+    margin: 4%;
+    border-radius: 20px;
+    background-image: url("../imagenes/diseño.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
