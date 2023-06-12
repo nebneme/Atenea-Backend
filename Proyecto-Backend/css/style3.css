@@ -1,0 +1,290 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+nav{
+    text-align: center;
+    justify-items: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #ce0808d2;
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    position:fixed;
+    
+}
+nav li{
+    padding-top: 5px;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center; 
+}
+
+
+.ventas{
+    width:100%;
+    height:200px;
+    align-items: center;
+    text-align: -webkit-center;
+}
+
+/*propiedades del contenedor logo de polimes*/
+#logo{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    text-align: -webkit-center;
+}
+#logo img{
+    width: auto;
+    height: 70px;
+    padding-top: 80px;
+}
+/*fondo de formas rojas */
+.titular{
+    width: 100%;
+    height:80px;
+    background-image: url("../imagenes/fondoletras.png");
+    text-align: -webkit-center;
+}
+
+.totalvalores{
+
+    margin-top: 2%;
+    height: auto;
+    width: 68%;
+    text-align: center;
+}
+H3{
+    padding-top: 15px;
+    height: 80%;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+.clientes{
+    padding-top: 15px;
+    height: 100%;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #5C5B5B;
+    letter-spacing: 2px;
+}
+/*contenedor principal para incluir todas las categorias de productos */
+#categorias{
+    width: 100%;
+    height: 1700px;
+    text-align: -webkit-center;
+    text-align: center;
+    justify-content: center;
+
+}
+/*contendor de cada categoria de le empresa */
+#categorias .contenedor_categoria{
+    width: 70%;
+    height: 140px;
+    background-color: #F2F2F2;
+    margin-top: 10px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    display: flex;
+    margin-left: 15%;
+    margin-bottom: 1.5%;
+    box-shadow: 5px 14px 13px -1px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 5px 14px 13px -1px rgba(0,0,0,0.18);
+    -moz-box-shadow: 5px 14px 13px -1px rgba(0,0,0,0.18);
+    
+}
+/*propiedades de la imagen que esta dentro del contendor de las categorias*/
+#categorias .contenedor_categoria .imagen_categoria img{
+    width: absolute;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    }
+
+    /*contenedor de nombre de cada categoria*/
+#categorias .contenedor_categoria .info{
+        display: flex;
+        width: 90%;
+        height: 100%;
+        place-items: center;
+    }
+/*nombre de cada categoria*/
+#categorias .contenedor_categoria h4{
+    font-size: 40px;
+    color:#5C5B5B;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1%;
+}
+
+/*propiedades del porcentaje de todas las categorias */
+.porcentaje{
+    font-size: 80px;
+    color:#5C5B5B;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#categorias .contenedor_categoria .contenido_porcentaje{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left:auto; margin-right:150px;
+    margin-top: 4%;
+}
+
+footer{
+
+    display:flex;
+    background-color: #ce0808d2;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    left:0px;
+}
+footer img{
+    height: 30px;
+    width: auto; 
+    padding-inline: 10px 10px;
+    
+
+}
+footer .parrafo{
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+
+}
+
+footer .redes{
+    justify-content: center;
+    padding-left: 72%;
+    margin-top: 0.5%;
+}
+/*responsive desing */
+@media   (max-width: 1420px)  {
+    
+    nav li{ 
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 100px;
+    font-size: 15;
+    }
+    footer .redes{
+        justify-content: center;
+        padding-left: 60%;
+        margin-top: 0.5%;
+    }
+}
+@media   (max-width: 1000px)  {
+    
+    nav li{ 
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    font-size: 15px;
+    margin-right: 45px;
+    }
+    footer .redes{
+        justify-content: center;
+        padding-left: 40%;
+        margin-top: 0.1%;
+    } 
+    html {
+    min-height: 100%;
+    position: relative;
+    }
+    nav{
+    height: 60px;
+    } 
+    #categorias .contenedor_categoria h4{
+        font-size: 25px;
+    }
+    .porcentaje{
+        font-size: 50px; 
+    }
+    #categorias .contenedor_categoria .contenido_porcentaje{
+    
+        margin-left:auto; margin-right:60px;
+        margin-top: 15%;
+    }
+}   
+
+@media   (max-width: 600px)  {
+    
+    nav li{ 
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    font-size: 15px;
+    margin-right: 45px;
+    }
+    footer .redes{
+        justify-content: center;
+        padding-left: 20%;
+        margin-top: 0.1%;
+    } 
+    html {
+    min-height: 100%;
+    position: relative;
+    }
+    nav{
+    height: 60px;
+    } 
+    #categorias .contenedor_categoria h4{
+        font-size: 20px;
+    }
+    .porcentaje{
+        margin-top: 50%;
+        font-size: 30px; 
+    }
+    #categorias .contenedor_categoria .contenido_porcentaje{
+    
+        margin-left:auto; margin-right:60px;
+        margin-top: 20%;
+    }
+    #categorias .contenedor_categoria{
+        width: 70%;
+        height: 100px;
+        margin-top: 20px;
+    }  
+    .titular{
+        width: 100%;
+        height:100px;
+    }
+}

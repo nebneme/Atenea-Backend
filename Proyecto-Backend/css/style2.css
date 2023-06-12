@@ -1,0 +1,360 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+nav{
+    padding-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #ce0808d2;
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    position:fixed;
+    text-align: center;
+    justify-items: center;
+}
+nav li{
+    padding-top: 5px;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+
+}
+hr{
+    border: 0.5px solid white;
+    width: 90%;
+    margin: auto;
+}
+/*contenedor de las ventas generales de la empresa*/
+.ventas{
+    width:100%;
+    height:55dvh;
+    text-align: -webkit-center;
+}
+/*propiedades del contenedor logo de polimes*/
+#logo{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    text-align: -webkit-center;
+}
+#logo img{
+    width: auto;
+    height: 70px;
+    padding-top: 80px;
+}
+.moderno{
+    width:100%;
+    height:60dvh;
+    display:block;
+    justify-content: center;
+    text-align: -webkit-center;
+}
+/*fondo de formas rojas */
+.titular{
+    width: 100%;
+    height:80px;
+    background-image: url("../imagenes/fondoletras.png");
+    text-align: -webkit-center;
+}
+.titular h4{
+    margin-left: 250px;
+    display: inline-block;
+}
+
+.titular .porcentaje{
+float: right;
+}
+/*contenedor de porcentaje de ventas*/
+.porcentaje{
+    width: 250px;
+    height:120px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #FA7C07;
+}
+
+h5{
+    margin-top: 15px;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+/*contenedor del canal tradicional*/
+.tradicional{
+    width:100%;
+    height:60dvh;
+    justify-content: center;
+    justify-content: center;
+    text-align: -webkit-center;
+}
+/*contenedor del canal institucional*/
+.institucional{
+    width:100%;
+    height:60dvh;
+    justify-content: center;
+    text-align: -webkit-center;
+
+}
+/*contenedor de valor de las ventas principales */
+.valores{
+    margin-top: 170px;
+    width: 50%;
+    height: 130px;
+    border:2px solid rgba(0, 0, 0, 0.199);
+    border-radius: 20px;
+    box-shadow: 12px 10px 18px 0px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 12px 10px 18px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 12px 10px 18px 0px rgba(0,0,0,0.22);
+    text-align: center;
+    justify-content: center;
+    text-align: -webkit-center;
+
+}
+/*contenedor de las ventas de los canales */
+.totalvalores{
+    margin-top: 125px;
+    width: 65%;
+    height: 160px;
+    border:2px solid rgba(0, 0, 0, 0.199);
+    border-radius: 20px;
+    box-shadow: 12px 10px 18px 0px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 12px 10px 18px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 12px 10px 18px 0px rgba(0,0,0,0.22);
+    text-align: center;
+    justify-content: center;
+    text-align: -webkit-center;
+    align-items: center;
+
+}
+
+footer{
+    display:flex;
+    background-color: #ce0808d2;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    left:0px;
+}
+footer img{
+    height: 30px;
+    width: auto; 
+    padding-inline: 10px 10px;
+    
+
+}
+footer .parrafo{
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+
+
+}
+
+footer .redes{
+    justify-content: center;
+    padding-left: 72%;
+    margin-top: 0.5%;
+}
+/*valores de los canales de ventas */
+.vsubtotal
+{  
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    color: #17171ab9;
+    font-weight:700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 90px;
+    justify-content: center;
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.301);
+}
+/*valor de las ventas totales*/
+.vtotal
+{  
+    margin-top: -5px;
+    width: 100%;
+    height: 100%;
+    color: #17171ab9;
+    font-weight:700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 150px;
+    justify-content: center;
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.301);
+}
+
+H3{
+    padding-top: 15px;
+    height: 80%;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+H4{
+    margin-top: 20px;
+    height: 80%;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+@media   (max-width: 1500px)  {
+    
+    nav li{ 
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 100px;
+    font-size: 15;
+    }
+    footer .redes{
+        justify-content: center;
+        padding-left: 60%;
+        margin-top: 0.5%;
+    }
+    .vtotal{
+        margin-top: 3%;
+        font-size: 90px;
+    }
+    .vsubtotal{
+        font-size: 60px;
+        margin-top: 5%;
+    }
+}
+@media   (max-width: 1050px)  {
+    
+    nav li{ 
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    font-size: 15px;
+    margin-right: 45px;
+    }
+    footer .redes{
+        justify-content: center;
+        padding-left: 40%;
+        margin-top: 0.1%;
+    }
+    
+    html {
+    min-height: 100%;
+    position: relative;
+    }
+    nav{
+    height: 60px;   
+    }
+    .titular h4{
+    margin-left: 50px;
+    display: inline-block;  
+    }   
+}
+
+@media   (max-width: 900px)  {
+    
+    nav li{ 
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    font-size: 15px;
+    margin-right: 45px;
+    }
+    footer .redes{
+        justify-content: center;
+        padding-left: 40%;
+        margin-top: 0.1%;
+    }
+    
+    html {
+    min-height: 100%;
+    position: relative;
+    }
+    nav{
+    height: 60px;   
+    }
+    .titular h4{
+    margin-left: 10px;
+    display: inline-block;  
+    } 
+    .vtotal{
+        margin-top: 6%;
+        font-size: 70px;
+    }
+    .vsubtotal{
+        font-size: 50px;
+        margin-top: 8%;
+    }  
+}
+@media   (max-width: 700px)  {
+    
+    nav li{ 
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    font-size: 15px;
+    margin-right: 45px;
+    }
+    footer .redes{
+        justify-content: center;
+        padding-left: 20%;
+        margin-top: 0.1%;
+    }
+    
+    html {
+    min-height: 100%;
+    position: relative;
+    }
+    nav{
+    height: 60px;   
+    }
+    .titular h4{
+    margin-left: 10px;
+    display: inline-block;  
+    } 
+    .vtotal{
+        margin-top: 12%;
+        font-size: 45px;
+    }
+    .vsubtotal{
+        font-size: 30px;
+        margin-top: 15%;
+    }  
+    .titular{
+        height:120px;
+        
+}
+}
